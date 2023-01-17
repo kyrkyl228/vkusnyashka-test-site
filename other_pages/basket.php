@@ -78,7 +78,7 @@
     <header class="head">
         <div class="sections">
             <div class="sections__logo">
-                <a href="..\index.php">
+                <a href="..\index.html">
                     <img src="..\img\logo.png" alt="">
                     <p>Вкусняшка</p>                        
                 </a>
