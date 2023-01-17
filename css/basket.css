@@ -1,0 +1,350 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing:border-box;
+    border: 0px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+body{
+    height: 100%;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head{
+    background-image: url(../img/BackBasket.png);
+    background-size: cover;
+    padding: 1.8vw 2vw 6.2vw 2vw;
+}
+
+.sections{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.875vw;
+    color: #FFFF;
+}
+
+.sections__logo a{
+    display: flex;
+    max-height: 3.9vw;
+}
+
+.sections__logo a img{
+    max-height: 3.9vw;
+}
+
+.sections__logo p{
+    margin-left: 1vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 2.8vw;
+    font-family: Lifehack;
+}
+
+.sections__list{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sections__list li{
+    display: inline-block;
+    margin-left: 3vw;
+}
+
+.sections__list li:first-child{
+    margin-left: 0vw;
+}
+
+.basket{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.basket a img{
+    max-height: 3.125vw;
+}
+
+.newNav{
+    display: none;
+}
+
+.navMobile{
+    display: none;
+}
+
+/* Container ----------------------------------------------------------------------------*/
+
+.container{
+    margin: 4vw 2vw 5vw 2vw;
+    min-height: 50vw;
+    box-shadow: 0px 0px 0.625vw 0.20833vw #444444;
+    border-radius: 2vw;
+    padding: 2.8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.purchases{
+    width: 63vw;
+    border-radius: 2vw;
+}
+
+.buy{
+    width: 24vw;
+    height: 22.6vw;
+    box-shadow: 0px 0px 0.625vw 0.20833vw #6b6b6b;
+    border-radius: 2vw;
+    padding: 2.8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.totalPrice{
+    display: flex;
+    justify-content: center;
+}
+
+.totalPrice p{
+    font-size: 2.7vw;
+    font-weight: bold;
+}
+
+.totalPrice img{
+    margin-top: auto;
+    margin-bottom: auto;
+    max-height: 2.3vw;
+    margin-left: 1vw;
+}
+
+.buttonWrapper{
+    display: flex;
+}
+
+.paymentButton{
+    margin-left: auto;
+    margin-right: auto;
+    width: 15vw;
+    height: 4vw;
+    border: 0vw;
+    background-color: #F56210;
+    border-radius: 3vw;
+    color: #FFFFFF;
+    font-size: 2vw;
+}
+
+/* list ---------------------------------------------------------- */
+
+.purchases{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 8vw;    
+}
+
+
+/* product list -------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.wrapperList{
+    display: flex;
+}
+
+.wrapperlist__imageWrapper{
+    height: 8.9vw;
+}
+
+.imageWrapper__img{
+    width: 8vw;
+    height: 8.9vw;
+    object-fit: cover;
+}
+
+.wrapperList__mainWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mainWrapper__name{
+    font-size: 1.875vw;
+}
+
+.mainWrapper__unit{
+    color: #BBBBBB;
+    font-size: 1.1vw;
+}
+
+.mainWrapper__amount{
+    display: flex;
+}
+
+.mainWrapper__value{
+    display: flex;
+}
+
+.mainWrapper__value p{
+    font-size: 1.875vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mainWrapper__buttons{
+    margin-left: 0.2vw;
+    display: flex;
+}
+
+.mainWrapper__buttons>button{
+    width: 2.3vw;
+    height: 2.3vw;
+    font-size: 1.875vw;
+    border-radius: 2.3vw;
+    margin-top: auto;
+    margin-bottom: auto;    
+}
+
+.mainWrapper__buttons>button:first-child{
+    color: #DC1010;
+}
+
+.mainWrapper__cost{
+    display: flex;
+}
+
+.mainWrapper__cost p{
+    font-size: 1.875vw;
+}
+
+.mainWrapper__cost>img{
+    margin-left: 0.5vw;
+    max-height: 1.5vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* form ------------------------------------------------- */
+
+input {outline: none; border: none;}
+textarea {outline: none; border: none;}
+
+.backButton{
+    display: none;
+}
+
+.herringWrapper{
+    display: none;
+    position: absolute;   
+}
+
+.herring{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.637); 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapperWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+
+}
+
+.arranged{
+    background-color: rgb(255, 255, 255);
+    width: 30vw;
+    height: 35vw;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 1vw;
+    box-shadow: 0vw 0vw 2vw;
+}
+
+.arranged__logo{
+    display: flex;
+    padding-top: 1vw;
+    justify-content: center;
+}
+
+.arranged__logo img{
+    max-height: 3vw;
+}
+
+.arranged__logo p{
+    margin-left: 0.5vw;
+    font-size: 2vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.arranged__formWorkplace ul{
+    margin: 1.5vw 1vw;
+}
+
+.arranged__list{
+    display: flex;
+    font-size: 1.1vw;
+    margin-bottom: 1vw;
+}
+
+.arranged__formWorkplace li:last-child{
+    display: flex;
+    flex-direction: column;
+}
+
+.arranged__list label{
+    white-space: pre;
+}
+
+.arranged__list input{
+    margin-left: 0.8vw;
+    border-bottom: 1px solid black;
+    width: 100%;
+    overflow: hidden;
+    font-size: 1.1vw;
+}
+
+.arranged__list textarea{
+    margin-top: 0.4vw;
+    resize: none;
+    width: 100%;
+    height: 10vw;
+    overflow: hidden;
+}
+
+.arranged__list textarea{
+    color: black;
+    font-size: 0.7vw;
+    line-height: 1vw;
+    background-image: url(../img/textareaBack.png);
+    background-size: 0.4vw 1vw;
+}
+
+.arranged__buttonWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.arranged__button{
+    margin-top: 1vw;
+    width: 9vw;
+    height: 3vw;
+    background-color: #F56210;
+    color: #FFFFFF;
+    border-radius: 2vw;
+    font-size: 1.5vw;
+    text-align: center;
+    line-height: 3vw;
+}

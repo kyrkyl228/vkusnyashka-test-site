@@ -1,0 +1,387 @@
+@media only screen and (max-width: 800px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+        border: 0px;
+    }
+
+    li{
+        list-style-type: none;
+    }
+
+    a{
+        color: inherit;
+    }
+
+    body{
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*                            Wrapper                                      */
+
+    .head{
+        background-image: url(../img/SweetsBackMobile.png);
+        background-size: cover;
+        padding-left: 2.65625vw;
+        padding-right: 2.65625vw;
+        padding-top: 2.13541666vw;
+        padding-bottom: 43vw;
+    }
+
+    header{
+        display: flex;
+    }
+    
+    .logo{
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+    }
+    
+    .logo a{
+        display: flex;
+    }
+    
+    .logo__img{
+        width: 6.7vw;
+        height: 9.1vw;
+    }
+    
+    .logo__name{
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-left: 0.88541666vw;
+        font-family: Lifehack;
+        font-size: 7.128vw;
+        color: #FFFFFF;
+    }
+    
+    nav .nav__list{
+        display: none;
+    }
+    
+    .basket{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+    }
+    
+    .basket__image{
+        display: none;
+    }
+
+    .newNav{
+        display: block;
+        max-height: 4.2vw;
+    }
+
+    .navMobile{
+        display: none;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1; 
+        background-color: white;
+        overflow: hidden;
+    }
+
+    .NavWrapper:hover .navMobile{
+        display: block;
+    }
+
+    .nav__listNew{
+
+    }
+    
+    .nav__listNew li{
+        display: flex;
+        font-size: 3.6vw;
+        height: 12vw;
+        border-bottom: 0.2vw solid #ad4309;
+        color: #F56210;
+    }
+    
+    .nav__listNew li:first-child{
+        border: 0.5vw solid #ad4309;
+        background-color: #F56210;
+        color: white;
+    }
+
+    .nav__listNew a{
+        margin: auto;
+    }
+    
+    .lure{
+        margin-top: 7vw;
+        width: 90%;
+        height: 90%;
+    }
+    
+    .lure__title{
+        margin-top: 1.8229166vw;
+        font-family: Regular;
+        font-weight: bold;
+        margin-left: 2.935vw ;
+        font-size: 7.38vw;
+        color: #FFFFFF;
+    }
+    
+    .lure__text{
+        font-family: Uncial Antiqua;
+        margin-left: 2.935vw ;
+        margin-right: 7.635vw ;
+        margin-top: 2.8229166vw;    
+        font-size: 3.66vw;
+        color: #FFFFFF;
+    }
+    .wrapper{
+        padding-left: 2.65625vw;
+        padding-right: 2.65625vw;
+        padding-top: 2.13541666vw; 
+    }
+    .content{
+        margin-top: 10.02083333vw;    
+    }
+    
+    .subsections{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5vw;
+    }
+
+    .subsections button{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.8vw;
+        background-color: inherit;
+        display: flex;
+    }
+    
+    .subsections img{
+        width: 6.76vw;
+        height: 6.76vw;
+    }
+
+    .subsections p{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 0.5vw;
+        font-size: 3.666vw;
+    }
+
+    .products>ul{
+        margin-top: 12vw;
+        display: block;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20vw;
+        margin-bottom: 10vw;
+    }
+
+    .products li{
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    .textInformation{
+        display: none;
+        padding: 0.2vw 0.2vw;
+        font-size: 4vw;
+        background-color: #FFFFFF; 
+        width: 57.3vw;
+        height: 74vw;
+        border-radius: 4vw;
+        box-shadow: 0px 0px 1.25vw 0.8833vw #c4b5b5;
+    }
+
+    .textInformation p{
+        margin-top: 1vw;
+        font-size: 3vw;
+    }
+
+    .buy__product{    
+
+    }
+
+    .buy__main{
+        background-color: #FFFFFF;
+        width: 57.3vw;
+        height: 74vw;
+        border-radius: 4vw;
+        box-shadow: 0px 0px 3.25vw 0.8833vw #c4b5b5;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0.2vw 0.2vw;
+    }
+
+    .buy__imageContainer{
+        display: flex;
+    }
+
+    .buy__picture{
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 32vw; 
+        max-width: 47.3vw;   
+    }
+
+    .buy__logo{
+
+    }
+
+    @media only screen and (max-width: 1050px){ 
+        .buy__logo{ 
+            max-width: 50%;
+            max-height: auto; 
+        } 
+    }
+
+    @media only screen and (max-width: 650px){ 
+        .buy__logo{ 
+            max-width: 25%;
+            max-height: auto; 
+        } 
+    }
+
+    .productName{
+        text-align: center;
+        font-size: 6.5625vw;
+    }
+
+    .massAndRat{
+        margin-top: 1vw;
+        display: flex;
+    }
+
+    .mass{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 4.04166vw;
+        color: #BBBBBB;
+    }
+
+    .ratWrapper{
+        display: block;
+        justify-content: center;    
+        width: 6.96875vw;
+        height: 3.04166vw;
+        border-radius: 3.5625vw;
+        margin-left: 3.5208vw;
+        margin-top: auto;
+        margin-bottom: auto;    
+        background-color: #14AF2D;
+    }
+
+    .rat{
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 0.67708vw;
+    }
+
+    .buy__star{
+        width: 1.468vw;
+        height: 1.468vw;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .buy__buyButton{
+
+    }
+
+    .price{
+        display: flex;
+        justify-content: center;
+    }
+
+    .price p{
+        font-size: 7.875vw;
+    }
+
+    .price img{
+        margin-left: 0.5vw;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 3.19792vw;
+        height: 3.40625vw;
+    }
+
+    .buy__buttonContainer{
+        margin-bottom: 2vw;
+    }
+
+    .buy__buttonWrapper{
+        margin-top: 0.5vw; 
+        display: flex;   
+    }
+
+    .buy__button{
+        margin-left: auto;
+        margin-right: auto;
+        width: 29.427vw;
+        height: 8.13541vw;
+        background-color: #F56210;
+        border-radius: 6vw;
+        color: #FFFFFF;
+        font-size: 4.25vw;
+    }
+
+    .buy__buttonNew{
+        margin-top: 0.5vw;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .minus{
+        width: 6.4vw;
+        height: 6.4vw;
+        border-radius: 6.4vw;
+        font-size: 3.8vw;
+        color: #AE1313;
+    }
+
+    .buy__amount{
+        font-size: 6vw;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .plus{
+        width: 6.4vw;
+        height: 6.4vw;
+        border-radius: 6.4vw;
+        font-size: 3.8vw;
+    }
+
+    .information{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 11vw;
+        height: 7vw;
+        border-radius: 4vw;
+        background-color: #B74607;
+        transform: translate(35%, -35%);
+        display: flex;
+    }
+
+    .information img{
+        width: 3.98958vw;
+        height: 2.5729vw;
+        margin: auto;
+    }
+
+    /* -------------------------------------------------------------------------- */
+
+}
+

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="components\footer\footer.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .buy__product{    
+    background-color: #FFFFFF;
+    width: 17.291666vw;
+    min-height: 40.40625vw;
+    border-radius: 0.4166666vw;
+    box-shadow: 0px 0px 0.625vw 0.20833vw #000000;
+}
+
+
+
+.buy__main{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.buy__info{
+    
+}
+
+.buy__imageContainer{
+    display: flex;
+}
+
+.buy__picture{
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 12vw;    
+}
+
+.buy__logo{
+
+}
+
+@media only screen and (max-width: 1050px){ 
+    .buy__logo{ 
+        max-width: 50%;
+        max-height: auto; 
+    } 
+}
+
+@media only screen and (max-width: 650px){ 
+    .buy__logo{ 
+        max-width: 25%;
+        max-height: auto; 
+    } 
+}
+
+.productName{
+    text-align: center;
+    font-size: 1.5625vw;
+}
+
+.massAndRat{
+    margin-top: 1vw;
+    display: flex;
+}
+
+.mass{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.04166vw;
+    color: #BBBBBB;
+}
+
+.ratWrapper{
+    display: flex;
+    justify-content: center;    
+    width: 2.96875vw;
+    height: 1.04166vw;
+    border-radius: 1.5625vw;
+    margin-left: 0.5208vw;
+    margin-top: auto;
+    margin-bottom: auto;    
+    background-color: #14AF2D;
+}
+
+.rat{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 0.67708vw;
+}
+
+.buy__star{
+    width: 0.468vw;
+    height: 0.468vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.buy__buyButton{
+
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+}
+
+.price p{
+    font-size: 1.875vw;
+}
+
+.price img{
+    margin-left: 0.5vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 1.19792vw;
+    height: 1.40625vw;
+}
+
+.buy__buttonWrapper{
+    margin-top: 0.5vw; 
+    display: flex;   
+}
+
+.buy__button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 9.427vw;
+    height: 2.4vw;
+    background-color: #F56210;
+    border-radius: 3vw;
+    color: #FFFFFF;
+    font-size: 1.25vw;
+}
+
+.buy__buttonNew{
+    margin-top: 0.5vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.minus{
+    width: 2.4vw;
+    height: 2.4vw;
+    border-radius: 2.4vw;
+    font-size: 1.8vw;
+    color: #AE1313;
+}
+
+.buy__amount{
+    font-size: 2vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.plus{
+    width: 2.4vw;
+    height: 2.4vw;
+    border-radius: 2.4vw;
+    font-size: 1.8vw;
+}
+
+.information{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 3.0208vw;
+    height: 1.8229vw;
+    border-radius: 2vw;
+    background-color: #B74607;
+    transform: translate(35%, -35%);
+    display: flex;
+}
+
+.information img{
+    width: 0.98958vw;
+    height: 0.5729vw;
+    margin: auto;
+}
+    </style>
+    <li>
+        <div class="buy__product">
+            <div class="buy__main">
+                <div class="buy__info">
+                    <div class="buy__imageContainer">
+                        <img src="https://888travel.ru/images/stories/maps/physical_map_of_poland.jpg" alt="" class="buy__picture">
+                    </div>
+                    <p class="productName">
+                        Гача
+                    </p>
+                    <div class="massAndRat">
+                        <p class="mass">
+                            500 грамм/упаковка
+                        </p>
+                    </div>
+                </div>
+                <div class="buy__buyButton">
+                    <div class="price">
+                        <p>
+                            300
+                        </p>
+                        <img src="img\rub.png" alt="">
+                    </div>
+                    <div class="buy__buttonContainer">
+                        <div class="buy__buttonWrapper">
+                            <button class="buy__button">
+                                Купить
+                            </button>                              
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="information">
+            <img src="..\img\information.png" alt="">
+        </button>
+    </li>
+</body>
+</html>

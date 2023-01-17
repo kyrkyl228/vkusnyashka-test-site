@@ -1,0 +1,491 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    border: 0px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: inherit;
+}
+
+body{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*                            Wrapper                                      */
+
+@media only screen and (max-width: 800px){ 
+    .wrapper{
+        background-image: url(../img/BackMainMobile.png);
+        background-size: cover;
+        padding-left: 2.65625vw;
+        padding-right: 2.65625vw;
+        padding-top: 2.13541666vw; 
+    }
+    
+    header{
+        display: flex;
+    }
+    
+    .logo{
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+    }
+    
+    .logo a{
+        display: flex;
+    }
+    
+    .logo__img{
+        width: 6.7vw;
+        height: 9.1vw;
+    }
+    
+    .logo__name{
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-left: 0.88541666vw;
+        font-family: Lifehack;
+        font-size: 7.128vw;
+        color: #FFFFFF;
+    }
+    
+    nav .nav__list{
+        display: none;
+    }
+    
+    .basket{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+    }
+    
+    .basket__image{
+        display: none;
+    }
+
+    .newNav{
+        display: block;
+        max-height: 4.2vw;
+    }
+
+    .navMobile{
+        display: none;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1; 
+        background-color: white;
+        overflow: hidden;
+    }
+
+    .NavWrapper:hover .navMobile{
+        display: block;
+    }
+
+    .nav__listNew{
+
+    }
+
+    .nav__listNew li:hover{
+        box-sizing: border-box;
+        border: 0.4vw solid #ad4309;
+        color: #F56210;
+    }    
+
+    .nav__listNew li{
+        display: flex;
+        font-size: 3.6vw;
+        height: 12vw;
+        border-bottom: 0.2vw solid #ad4309;
+        color: #F56210;
+    }
+
+
+
+    .nav__listNew a{
+        margin: auto;
+    }
+    
+    /*                        content                                   */
+    
+    .content{
+        margin-top: 10.02083333vw;    
+    }
+    
+    .lure{
+        margin-top: 1.8229166vw;
+        width: 90%;
+        height: 90%;
+    }
+    
+    .lure__title{
+        margin-top: 1.8229166vw;
+        font-family: Regular;
+        font-weight: bold;
+        margin-left: 2.935vw ;
+        font-size: 7.38vw;
+        color: #FFFFFF;
+    }
+    
+    .lure__text{
+        font-family: Uncial Antiqua;
+        margin-left: 2.935vw ;
+        margin-right: 7.635vw ;
+        margin-top: 2.8229166vw;    
+        font-size: 3.66vw;
+        color: #FFFFFF;
+    }
+    
+    .lure__button{
+        margin-left: 4.9375vw;
+        margin-top: 16.55208333vw;
+        width: 36.0416667vw;
+        height: 9.75vw;
+        border-radius: 3.5625vw;
+        font-size: 3.25vw;
+        color: #ED4B47;
+    }
+
+    .aboutUs{
+        margin-top: 23.4375vw;
+    }
+    
+    h1{
+        text-align: center;
+        font-size: 7.38vw;
+        color: #C314B2;
+        margin-top: 60vw;
+    }
+    
+    .aboutUs__list{
+        display: block;
+        
+    }
+    
+    .aboutUs__list li{
+
+
+        text-align: center;
+        font-size: 100%;
+    }
+    
+    .aboutUs__list li:first-child{
+        margin-top: 30vw;
+        margin-left: 10vw;
+        width: 80%;
+    }
+    
+    .aboutUs__list li:nth-child(2){
+        margin-top: 30vw;
+        margin-left: 10vw;
+        width: 80%;
+
+    }
+    
+    .aboutUs__list li:nth-child(3){
+        width: 80%;
+        margin-top: 70vw;
+        margin-left: 10vw;
+        margin-top: 25vw;
+      
+    }
+    
+    .AboutUs__img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60.3229166667vw;
+        height: 60.3229166667vw;
+
+    }
+    
+    .AboutUS__text{
+        font-family: UnifrakturCook;
+        font-size: 4.672vw;
+        text-align: center;
+    }
+    
+    .buy{
+        margin-top: 39vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .buy__text{
+        text-align: left;
+        margin-top: 70vw;
+        width: 80%;
+        margin-left: 10vw;
+        font-size: 5.66666vw;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    
+    .buy__chapter{
+        margin-top: 33.489583vw;
+    }
+    
+    .buy__chapter ul{
+        display: block;
+        justify-content: space-around;
+    }
+    
+    .buy__chapter li{
+        position: relative;
+    }
+    
+    .buy__product{    
+        background-color: #FFFFFF; 
+        width: 57.291666vw;
+        height: 77.40625vw;
+        border-radius: 1.4166666vw;
+        box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+        display: flex;
+        margin-left: 20vw;
+        margin-bottom: 20vw;
+    }
+    
+    .buy__picture{
+        transform: translate(-50%);
+        margin-top: auto;
+        margin-bottom: auto;
+        max-width: 17.58333vw;
+        max-height: 40.635416vw;
+    }
+    
+    .buy__main{
+        box-sizing: border-box;
+        padding-right: 0.1vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .buy__logo{
+       
+      max-width: 50%;
+      max-height: auto; 
+        
+    }
+    
+    @media only screen and (max-width: 1050px){ 
+        .buy__logo{ 
+            max-width: 50%;
+            max-height: auto; 
+        } 
+    }
+    
+    @media only screen and (max-width: 650px){ 
+        .buy__logo{ 
+            max-width: 25%;
+            max-height: auto; 
+        } 
+    }
+    
+    .productName{
+        font-size: 5vw;
+    }
+    
+    .massAndRat{
+        margin-left: 0vw;
+        display: flex;
+    }
+    
+    .mass{
+        font-size: 2.6vw;
+        font-weight: bold;
+        color: #BBBBBB;
+    }
+    
+    .ratWrapper{
+        display: block;
+        justify-content: center;    
+        width: 6.96875vw;
+        height: 3.04166vw;
+        border-radius: 3.5625vw;
+        margin-left: 3.5208vw;
+        margin-top: auto;
+        margin-bottom: auto;    
+        background-color: #14AF2D;
+    }
+    
+    .rat{
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 0.67708vw;
+    }
+    
+    .buy__star{
+        margin-left: 0.5625vw;
+        width: 1.468vw;
+        height: 1.468vw;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+
+    
+    .price{
+        margin-right: 10vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 40vw;
+    }
+    
+    .price p{
+        font-size: 7.875vw;
+    }
+    
+    .price img{
+        margin-left: 0.5vw;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 3.19792vw;
+        height: 3.40625vw;
+    }
+    
+    .buy__button{
+        margin-right: 10vw;
+        margin-top: 0vw;
+        width: 29.427vw;
+        height: 8.13541vw;
+        background-color: #F56210;
+        border-radius: 6vw;
+        color: #FFFFFF;
+        font-size: 4.25vw;
+    }
+    
+    .information{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 3.0208vw;
+        height: 1.8229vw;
+        border-radius: 2vw;
+        background-color: #B74607;
+        transform: translate(35%, -35%);
+        display: flex;
+    }
+    
+    .information img{
+        width: 0.98958vw;
+        height: 0.5729vw;
+        margin: auto;
+    }
+    
+    /*                      Form                                 */
+    
+    .form{
+        margin-top: 18vw;
+    }
+    
+    .yourOpinionText{
+        text-align: center;
+        font-size: 0vw;
+        color: #FFFFFF;
+    }
+    
+    .formName{
+        width: 70.3333vw;
+        height: 9.69792vw;
+        border-radius: 4vw;
+        box-shadow: 0px 0px 0.625vw 0.20833vw #6b6060;
+        text-align: center;
+        font-size: 3.25vw;
+    }
+    
+    .formReview{
+        margin-top: 3.78125vw;
+        width: 70.3333vw;
+        height: 60.5vw;
+        border-radius: 2vw;
+        box-shadow: 0px 0px 0.625vw 0.20833vw #837777;
+        text-align: center;
+        font-size: 3.25vw;
+    }
+    
+    .form form{
+        margin-left: 15vw;
+        margin-top: 3.3854166vw;
+        display: block;
+    }
+    
+    .form__butt{
+        width: 10.03125vw;
+        height: 6.14583vw;
+        margin-top: 10vw;
+        margin-left: 30vw;
+        margin-bottom: 0.2vw;
+        border-radius: 1.2vw;
+    }
+    
+    .form__butt img{
+        width: 10.03125vw;
+        height: 6.14583vw;
+    }
+    
+    .opinion{
+       display: none;
+       margin-top: 10vw; 
+    }
+    
+    .opinion__title{
+        display: none;
+        text-align: center;
+        font-size: 2.5vw;
+    }
+    
+    .opinion ul{
+        display: none;
+        justify-content: space-around; 
+    }
+    
+    .opinion li{
+        display: none;
+        background-color: #FFFFFF; 
+        width: 17.291666vw;
+        height: 21.40625vw;
+        border-radius: 0.4166666vw;
+        box-shadow: 0px 0px 0.625vw 0.20833vw #000000;
+    }
+    
+    .opinion ul{
+        display: none;
+        margin-top: 8.75vw;
+    }
+    
+    .opinion__wrapper{
+        display: none;
+        margin: 0.26vw;
+        height: inherit;
+    }
+    .opinion__name{
+        display: none;
+        text-align: center;
+        font-size: 1.6666vw;
+    }
+    
+    .opinion__text{
+        display: none;
+        font-size: 1.25vw;
+        margin-top: 1vw;
+    }
+    
+    footer{
+        display: none;
+        margin-top: 7vw;
+    }
+
+}
+

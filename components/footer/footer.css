@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    border: 0px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: inherit;
+}
+
+body{
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper__footer{
+    background-image: url(../../img/footer.png);
+    background-size: cover;
+    padding-top: 20vw;
+    padding-left: 6.25vw;
+    padding-right: 6.25vw;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address{
+    font-size: 2vw;
+}
+
+.tagline{
+    font-size: 2vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sber img{
+    max-width: 19vw;
+}
+
+
+
